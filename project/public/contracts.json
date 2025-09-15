@@ -1,0 +1,169 @@
+{
+  "contracts": [
+    {
+      "id": "1",
+      "name": "Enterprise Software License - Microsoft",
+      "parties": ["TechCorp Inc.", "Microsoft Corporation"],
+      "startDate": "2024-01-15",
+      "expiryDate": "2025-01-14",
+      "status": "Active",
+      "riskScore": "Low",
+      "value": "$250,000",
+      "type": "Software License",
+      "clauses": [
+        {
+          "id": "c1",
+          "title": "Payment Terms",
+          "summary": "Annual payment due within 30 days of invoice date",
+          "confidence": 0.95,
+          "content": "Payment shall be made annually in advance, due within thirty (30) days of invoice date."
+        },
+        {
+          "id": "c2",
+          "title": "Termination Rights",
+          "summary": "Either party may terminate with 90 days written notice",
+          "confidence": 0.88,
+          "content": "Either party may terminate this agreement with ninety (90) days written notice."
+        }
+      ],
+      "insights": [
+        {
+          "id": "i1",
+          "type": "Risk",
+          "severity": "Medium",
+          "title": "Auto-renewal clause",
+          "description": "Contract automatically renews unless terminated 90 days before expiry",
+          "recommendation": "Set calendar reminder 120 days before expiry date"
+        },
+        {
+          "id": "i2",
+          "type": "Opportunity",
+          "severity": "Low",
+          "title": "Volume discount available",
+          "description": "Contract includes tiered pricing for additional licenses",
+          "recommendation": "Consider purchasing additional licenses to unlock volume discounts"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Cloud Infrastructure Agreement - AWS",
+      "parties": ["TechCorp Inc.", "Amazon Web Services"],
+      "startDate": "2023-06-01",
+      "expiryDate": "2024-05-31",
+      "status": "Renewal Due",
+      "riskScore": "High",
+      "value": "$180,000",
+      "type": "Cloud Services",
+      "clauses": [
+        {
+          "id": "c3",
+          "title": "Service Level Agreement",
+          "summary": "99.9% uptime guarantee with service credits for downtime",
+          "confidence": 0.92,
+          "content": "Provider guarantees 99.9% uptime with service credits for any downtime exceeding this threshold."
+        }
+      ],
+      "insights": [
+        {
+          "id": "i3",
+          "type": "Risk",
+          "severity": "High",
+          "title": "Contract expires soon",
+          "description": "Contract expires in 45 days without renewal",
+          "recommendation": "Initiate renewal negotiations immediately"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Marketing Services Contract - AdTech Solutions",
+      "parties": ["TechCorp Inc.", "AdTech Solutions LLC"],
+      "startDate": "2023-09-15",
+      "expiryDate": "2025-09-14",
+      "status": "Active",
+      "riskScore": "Medium",
+      "value": "$120,000",
+      "type": "Marketing Services",
+      "clauses": [
+        {
+          "id": "c4",
+          "title": "Performance Metrics",
+          "summary": "Minimum 15% increase in qualified leads quarterly",
+          "confidence": 0.90,
+          "content": "Service provider commits to delivering a minimum 15% quarterly increase in qualified leads."
+        }
+      ],
+      "insights": [
+        {
+          "id": "i4",
+          "type": "Risk",
+          "severity": "Medium",
+          "title": "Performance penalties unclear",
+          "description": "Contract lacks clear penalties for underperformance",
+          "recommendation": "Negotiate specific penalty clauses for next renewal"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Office Lease Agreement - Downtown Plaza",
+      "parties": ["TechCorp Inc.", "Downtown Plaza LLC"],
+      "startDate": "2022-03-01",
+      "expiryDate": "2025-02-28",
+      "status": "Active",
+      "riskScore": "Low",
+      "value": "$480,000",
+      "type": "Real Estate",
+      "clauses": [
+        {
+          "id": "c5",
+          "title": "Rent Escalation",
+          "summary": "Annual rent increase of 3% starting year 2",
+          "confidence": 0.96,
+          "content": "Base rent shall increase by three percent (3%) annually beginning in the second year of the term."
+        }
+      ],
+      "insights": [
+        {
+          "id": "i5",
+          "type": "Opportunity",
+          "severity": "Low",
+          "title": "Early termination option",
+          "description": "Contract allows early termination with 6 months notice and penalty fee",
+          "recommendation": "Consider exercising if planning to downsize office space"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Cybersecurity Services - SecureNet",
+      "parties": ["TechCorp Inc.", "SecureNet Security"],
+      "startDate": "2024-02-01",
+      "expiryDate": "2023-12-15",
+      "status": "Expired",
+      "riskScore": "High",
+      "value": "$95,000",
+      "type": "Security Services",
+      "clauses": [
+        {
+          "id": "c6",
+          "title": "Data Breach Response",
+          "summary": "24/7 incident response team with 2-hour response time",
+          "confidence": 0.94,
+          "content": "Provider maintains 24/7 incident response team with guaranteed 2-hour response time for security incidents."
+        }
+      ],
+      "insights": [
+        {
+          "id": "i6",
+          "type": "Risk",
+          "severity": "High",
+          "title": "Expired security contract",
+          "description": "Critical security services contract has expired",
+          "recommendation": "Renew immediately or find alternative security provider"
+        }
+      ]
+    }
+  ]
+}
