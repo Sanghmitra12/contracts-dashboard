@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Dashboard from "./components/Dashboard";
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -19,16 +20,17 @@ function App() {
         </a>
       </header>
     </div>
+  <Dashboard />
   );
 }
 
 export default App;
 
 
-import Dashboard from "./components/Dashboard";
+// import Dashboard from "./components/Dashboard";
 
-function App() {
-  return <Dashboard />;
-}
+// function App() {
+//   return <Dashboard />;
+// }
 
-export default App;
+// export default App;
